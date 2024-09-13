@@ -1,2 +1,7 @@
 hey you wanna to do somethinghello / /
 hello / /favicon.ico
+
+hello /about?myname=dhes&userid=1 new req recieved
+hello /about?myname=dhes&userid=1&search=tic+tac+toe new req recieved
+hello /about?myname=dhes&userid=1&search=tic+tac+toe new req recieved
+hello /search?search_query=tic+tac+toe new req recieved
