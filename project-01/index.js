@@ -15,10 +15,11 @@ app.use((req,res,next)=>{
        next();
    } )
 });
-app.use((req,res,next)=>{
-    console.log("your req is listening 2..",req.myUserName);
-    return res.end("hello");
-})
+// middleware - plugin
+// app.use((req,res,next)=>{
+//     console.log("your req is listening 2..",req.myUserName);
+//     return res.end("hello");
+// })
 app.get("/api/users",(req,res)=>{
     return res.json(users);
 });
